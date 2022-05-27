@@ -1,6 +1,0 @@
-log sederhana
-
-
-- kadang kita hanya ingin melihat commit log message nya saja atau istilahnya adalah versi isederahannya saja
-- untuk melakukan itu kita bisa gunakan perintah : 
-git log --oneline
