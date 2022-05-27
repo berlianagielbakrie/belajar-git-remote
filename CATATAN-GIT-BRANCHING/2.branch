@@ -1,0 +1,56 @@
+melihat branch saat ini
+
+- secara default, git pasti akan membuat branch utama, biasanya master atau main
+- untuk melihat nama branch saat ini kita bisa gunakan perintah : 
+git branch --show-current
+
+praktek masih di BELAJARGIT\belajar-git-dasar
+
+
+
+
+        MEMBUAT BRANCH 
+
+- untuk membuat branch baru, caranya sangat mudah, kita bisa gunakan perintah : 
+git branch namabranchbaru
+
+- saat kita buat branch baru, secara otomatis branch baru akan dimulai dari posisi branch kita saat ini,
+jika misal kita membuat branch baru ketika posisi kita sedang di branch master, maka branch baru tersebut 
+akan dibuat di branch master
+
+
+        MELIHAT SEMUA BRANCH
+    
+- untuk melihat semua branch yang ada di repository kita, kita bisa gunakan perintah : 
+git branch --list
+
+- atau lebih singkat : 
+git branch
+
+
+    PINDAH KE BRANCH LAIN
+
+- setelah kita membuat branch baru, kita tidak secara otomatis akan pindah branch
+- untuk pindah ke branch lain, kita perlu lakukan secara manual
+- caranya kita bisa gunakan perintah : 
+git switch namabranch
+git checkout namabranch
+
+
+    MENGUBAH NAMA BRANCH
+
+- jika kita melakukan kesalahan pembuatan nama branch, kita juga bisa lakukan perubahan nama branch
+- namun untuk melakukannya, kita perlu pindah terlebih dahulu ke branch yang ingin kita ubah namanya
+- setelah pindah, kita bisa gunakan perintah : 
+git branch -m namabranchbaru
+
+
+
+    MENGHAPUS BRANCH
+
+- jika sebuah branch sudah tidak digunakan lag, idealnya kita perlu menghapus branch tersebut
+- untuk menghapus branch, kita perlu keluar terlebih dahulu dari branch tersebut
+- lalu gunakan perintah : 
+git branch -d namabranch
+git branch --delete namabranch
+

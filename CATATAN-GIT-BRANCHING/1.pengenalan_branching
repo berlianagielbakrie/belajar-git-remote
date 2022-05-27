@@ -1,0 +1,17 @@
+pengenalan branching
+
+- saat ini hampir semua VCS pasti memiliki fitur branching
+- branching berarti kita membuat timeline baru yang berbeda dari timeline utama
+- biasanya timeline utama, atau branch utama disebut dengan master atau main
+- saat kita membuat timeline branch baru, semua perubahan yang kita lakukan tidak akan merusak timeline branch utama
+- oleh karena itu fitur branching itu sangat cocok digunakna misal ketika akan menambah fitur di 
+repository. sehingga jika ternyata bermasalah, kita tinggal mudah pindah ke timeline utama
+- tidak ada batasan berapa banyak branch yang bisa kita buat di git, kita bisa bebas membuat branch dari branch manapun
+
+
+
+kapan branch digunakan?
+
+- dala pengembangan perangkat lunak, branch biasanya dibuat ketika kita akan menambah fitur baru
+- fitur baru akan ditambahkan di branch baru, sehingga kita bisa bebas menambah fitur tanpa takut melakukan kesalahan di branch utama
+- ketika fitur sudah siap, kita bisa melakukan merge (Menggabungkan) branch fitur baru tersebut ke branch utama
