@@ -1,0 +1,21 @@
+ada beberapa query yang bisa digunakan dalam git
+
+0. git init                         membuat git
+1. git status                       untuk melihat status
+2. git add namafile                 untuk menandai git untuk masuk ke bagian STAGING INDEX
+3. git commit -m "PESAN"            Menyimpan file dengan commit ke repository
+4. git diff                         melihat perubahan file
+5. git clean -file                  membatalkan penambahan file di working directory
+6. git restore namafile             membatalkan perubahan file di working directory
+7. git restore namafile             membatalkan penghapusan file di working directory
+8. git restore --staged namafile    membatalkan dari staging index
+9. git log                          untuk melihat commit log
+10. git log --oneline               untuk melihat commit log message saja
+11. git log --oneline --graph       untuk melihat hubungan commit log dengan commit log sebelumnya
+12. git show hash                   untuk melihat detail commit
+13. git show nomorhead              untuk melihat detail commit log pada file yang kita pilih
+14. git reset<mode> hash            reset commit
+15. git commit --ammend             mecommit ulang sebuah file yang ada perubahan
+16. git checkout has --namafile     melihat versi sebelumnya
+17. git checkout hash               kembali ke snapshot sebelumnya
+18. git checkout namabranch         kembali ke semula

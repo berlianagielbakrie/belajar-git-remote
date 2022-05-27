@@ -1,0 +1,5 @@
+graph
+
+- saat nanti kita sudah belajar tentang git branching, kadang kita ingin melihat commit log dengan hubunganya dengan commit log sebelumnya
+- hal ini bisa kita lakukan dengan perintah 
+git log --oneline --graph

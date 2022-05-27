@@ -1,0 +1,8 @@
+hash
+
+- setiap snapshot yang kita lakukan semua akan menghasilkan hash sebagai identitas snapshotnya 
+- hash merupakan checksum untuk menghitung perubahan yang terjadi
+- git menggunakan algoritma SHA-1 untuk menghitung hash
+- hash dibutuhkan untuk menjaga data integrity, sehingga tidak tiap snapshot yang sudah kita lakukan tidak bisa diubah, 
+hal ini karena akan secara otomatis merusak hash yang sudah dibuat 
+- contoh hash git  :30534aeabde63430490923092r23492-0349203943

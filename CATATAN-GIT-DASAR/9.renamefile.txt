@@ -1,0 +1,7 @@
+rename file
+
+- hal yang paling menarik di git adalah, git bisa mendeteksi rename file
+- secara sederhana sebenarnya rename file merupakan operasi gabungan antara hapus file lalu menambah file baru dengan isi yang sampai
+- namun git bisa otomatis mendeteksi jika terjadi perubahan nama file, karena isi file sebagaian besar masih sampai
+- dan ketika di add ke dalam staging index maka akan terdekteksi sebagai renamed file.
+

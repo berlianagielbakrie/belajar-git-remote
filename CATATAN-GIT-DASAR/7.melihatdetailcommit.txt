@@ -1,0 +1,5 @@
+melihat detail commit
+
+- kadang kita ingin melihat detail perubahan yang terjadi pada sebuah commit
+- untuk melakukan itu,kita bisa gunakan perintah :
+git show hash

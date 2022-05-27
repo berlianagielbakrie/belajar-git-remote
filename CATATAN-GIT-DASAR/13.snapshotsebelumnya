@@ -1,0 +1,32 @@
+snapshot sebelumnya
+
+- git juga memiliki fitur seperti mesin waktu, diman akita bisa kembali apda snapshot sebelumnya
+- kita bisa tentukan keman atujuan snapshot kita hanya dengan menggunakan hash commit
+- cara jika kita ingin menuju ke snapshot tertentu cukup gunakan perintah : 
+git checkout hash
+- jika ingin kembali ke paling awal, kita bisa gunakan perintah : 
+git checkout namabranch
+
+
+
+
+
+git branch
+
+- materi branching akan dibahas pada course terpisah, namun secara default saat kita membuat git repository
+maka secara otomatis git akan membuat branch
+- untuk melihat nama branch saat ini kita bisa gunakan perintah: 
+git branch --show-current
+
+
+git checkout 9031580 // pindah ke belakang
+git checkout master // kembali ke semula
+
+71054bd (HEAD -> master) MENBAMBAH FILE4.TXT YANG SUDAH DIRUBAH
+ccbdca2 Merubah file2.txt menjadi file_2.txt
+9031580 INI FILE KETIGA
+e161d3a Menghapus file3.txt
+d80cb61 Melakukan perubahan di file1.txt dan file2.txt
+17a660b MEngkomit perubahan file3.txt
+3127b1c Menambah file2.txt dan file3.txt
+f487c43 menambah file1.txt

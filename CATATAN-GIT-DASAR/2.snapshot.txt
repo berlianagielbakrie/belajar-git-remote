@@ -1,0 +1,10 @@
+    SNAPSHOT
+
+- pada materi sebelumnya kita selalu menyebutkan versi pada perubahan file
+- sebenarnya perubahan yang dilakukan bisa jadi dilakukan secara bersamaan untuk beberapa file, hal ini berarti
+sebenarnya tidak ada yang namanya versi file
+- semua perubahan yang terjadi akan direkam, dan kita sebut dengan SNAPSHOT
+- snapshot berisikan semua perubahan yang terjadi di semua file yang kita commit
+- setiap snapshot akan menghasilkan hash
+
+

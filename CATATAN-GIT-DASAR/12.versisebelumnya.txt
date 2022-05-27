@@ -1,0 +1,16 @@
+versi sebelumnya
+
+- kadang kita sering mengalami masalah dengan file yang sudah kita commit ke repository
+- git memiliki fitur dimana kita bisa melihat versi file pada commit sebelumnya
+- saat kita ambil versi file sebelumnya, file pada commit tersebut akan berada di staging index
+- untuk melakukannya, kita bisa gunakan perintah : 
+git checkout hash --namafile
+
+
+ git checkout 17a660b -- file1.txt
+
+
+untuk mengembalikan lagi : 
+tinggal hapus menggunakan 
+git restore --staged namafile
+lalu git restore nama file
