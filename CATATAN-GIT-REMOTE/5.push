@@ -1,0 +1,31 @@
+push
+
+- walaupun kita sudah menyimpan perubahan di git project di local, tapi tidak secara otomatis akan di sync dengan remote repository
+- hal ini karena sejak awal git di desain sebagai distributed version control, artinya kita bisa melakuakn perubahan dimanapun dan kapanpun
+tanpa harus terkoneksi ke git server
+- oleh karena itu, jika kita ingin mengirim perubahan yang terjadi di git project di local kita, kita perlu mengirimnya secara manual ke git server
+- untuk mengirim perubahan di local ke git sever kita bisa gunakan perintah push
+
+
+PUSH BRANCH
+
+- untuk mengirim perubahan branch ke remote repository dengan nama branch sama : 
+git push namaremote localbranch
+
+untuk mengirim perubahan branch ke remote repository dengan nama branch yang berbeda, kita bisa gunakan perintah :
+git push namaremote localbranch:remotebranch
+
+
+PUSH SEMUA BRANCH
+
+- jika kita ingin mengirim semua perubahan di semua branch ke remote repository, kita bisa gunakan perintah :
+git push origin --all
+
+
+MENGHAPUS BRANCH
+
+- perintah push juga bisa digunakan untuk menghapus branch yang ada di remote repository
+- kita bisa gunakan perintah 
+git push --delete namaremote namabranch
+- perlu diingat, menghapus remote branch bukan berarti menghapus branch di local, jadi jika kita tidak ingin hapus dilocal dan diremote
+kita harus lakukan secara manual 
